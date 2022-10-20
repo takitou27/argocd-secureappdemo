@@ -4,7 +4,6 @@ metadata:
   labels:
     app: bubble-animation
   name: bubble-animation
-  namespace: default
 spec:
   port:
     targetPort: 8080

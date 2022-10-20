@@ -5,7 +5,6 @@ metadata:
   labels:
     app: bubble-animation
   name: bubble-animation
-  namespace: default
 spec:
   replicas: 1
   selector:

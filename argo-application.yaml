@@ -12,7 +12,3 @@ spec:
     path: application-mainfest
     repoURL: https://github.com/takitou27/argocd-secureappdemo
     targetRevision: main
-  syncPolicy: 
-    automated:
-      prune: true
-      selfHeal: false
