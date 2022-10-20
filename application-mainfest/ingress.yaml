@@ -8,8 +8,6 @@ metadata:
     appprotect.f5.com/app-protect-security-log: default/logconf
     appprotect.f5.com/app-protect-security-log-destination: 'syslog:server=syslog-svc.default:514'
     appprotect.f5.com/app-protect-security-log-enable: 'True'
-    kubectl.kubernetes.io/last-applied-configuration: >
-      {"apiVersion":"networking.k8s.io/v1","kind":"Ingress","metadata":{"annotations":{"appprotect.f5.com/app-protect-enable":"True","appprotect.f5.com/app-protect-security-log":"default/logconf","appprotect.f5.com/app-protect-security-log-destination":"syslog:server=syslog-svc.default:514","appprotect.f5.com/app-protect-security-log-enable":"True","kubernetes.io/ingress.class":"nginx"},"name":"dvwa-ingress","namespace":"default"},"spec":{"rules":[{"host":"dvwa-openshift.takaaki-nginx.de","http":{"paths":[{"backend":{"service":{"name":"dvwa-svc","port":{"number":80}}},"path":"/","pathType":"Prefix"}]}}],"tls":[{"hosts":["dvwa-openshift.takaaki-nginx.de"],"secretName":"cafe-secret"}]}}
     kubernetes.io/ingress.class: nginx
 spec:
   tls:
